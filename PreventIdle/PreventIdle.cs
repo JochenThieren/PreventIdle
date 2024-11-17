@@ -136,7 +136,7 @@ namespace PreventIdle
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            this.Opacity = 0.25;
+            this.Opacity = 0.25; // Sets the opacity for the form, my personal choice is near invisible
 
             // Set the form's start position to manual
             this.StartPosition = FormStartPosition.Manual;
