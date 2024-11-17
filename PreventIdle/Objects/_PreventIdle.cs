@@ -5,21 +5,32 @@
 // Date      : November 2024
 // ----------------------------------------------------------------------------------
 // Description:
-// PreventIdle is designed to [briefly describe what the program does, if desired].
+// PreventIdle is a lightweight tool designed to keep your PC active and prevent it
+// from entering sleep or idle states while you wait for tasks to complete.
+// It achieves this by utilizing the Windows API function `SetThreadExecutionState`
+// to signal system activity and performing minor, imperceptible mouse movements
+// to ensure the system remains active.
+//
+// The program is intentionally designed to operate without requiring administrative
+// privileges. This avoids any need for creating log files, modifying system registry
+// keys, or other operations that may require elevated permissions.
+//
 // This software is provided "as is," without any express or implied warranties.
-// The author disclaims all liability for any errors, omissions, or damages arising
-// from the use, misuse, or inability to use this code, whether foreseeable or not.
+// The author assumes no responsibility for errors, omissions, or any consequences
+// arising from the use or misuse of this tool. Users accept full responsibility
+// for using it at their own risk.
 // ----------------------------------------------------------------------------------
 // License:
-// This code is released into the public domain. No fees or licenses are required for
-// its use, modification, or distribution. Users are encouraged to adapt it as needed
-// but assume all responsibility for any outcomes. By using this software, you accept
-// these terms and agree to use it entirely at your own risk.
+// PreventIdle is released into the public domain. No fees or licenses are required
+// for its use, modification, or distribution. Users are encouraged to adapt the
+// code as needed but assume full responsibility for any outcomes. By using this
+// software, you agree to these terms and conditions.
 // ----------------------------------------------------------------------------------
 // Notes:
-// - This program was developed as a personal project and is shared for informational
-//   or educational purposes. It may not meet production standards or best practices.
-// - Feedback and improvements are welcome but not expected. Enjoy!
+// - This program was developed as a personal project and is shared for educational
+//   and informational purposes. It may not adhere to production-grade standards
+//   or industry best practices.
+// - Feedback and suggestions for improvement are welcome but not mandatory. Enjoy!
 // ==================================================================================
 
 using System;
